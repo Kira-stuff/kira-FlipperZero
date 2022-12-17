@@ -13,7 +13,7 @@ This payload is inspired from https://github.com/nocomp/Flipper_Zero_Badusb_hack
 - ✨Magic ✨
 
 ## Instructions
-- Replace WEBHOOK_URL in the payload with your discord webhook URL
+- Replace WEBHOOK_URL in the payload with your discord webhook URL !
 
 
 
