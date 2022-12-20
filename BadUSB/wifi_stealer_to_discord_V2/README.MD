@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 
-[![logo](https://i.imgur.com/5xs7RnV.png "logo")]
+![logo](https://i.imgur.com/5xs7RnV.png "logo")
 
 </div>
 
@@ -17,4 +17,4 @@ notes: Code need to be UTF8-BOM encoded
 - Output is sent in nice Formatted Embed
 - Takes into account Wi-Fi without a security key
 
-[![output](https://i.imgur.com/p1vBYqW.jpg "output")]
+![output](https://i.imgur.com/p1vBYqW.jpg "output")
