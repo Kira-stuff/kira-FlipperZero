@@ -1,9 +1,13 @@
-# Flipper Zero - Kira's Zone🐬
-
-
 
 <p align="center">
-  <a href="https://github.com/kira-stuff"><img src="https://visitor-badge.glitch.me/badge?page_id=kira-stuff.kira-FlipperZero" alt="Kira"></a>
+    <a href="https://github.com/kira-stuff"><img src="https://readme-typing-svg.demolab.com/?lines=Kira's+Flipper+Zero+Playground🐬;Feel free to contribute!" alt="Kira"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/kira-stuff"><img src="https://visitor-badge.glitch.me/badge?page_id=kira-stuff.kira-FlipperZero" alt="Kira"></a>
+</p>
+
+<p align="center">
   <img src="https://i.imgur.com/5yHFW3w.png" />
 </p>
 
