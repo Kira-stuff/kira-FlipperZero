@@ -1,10 +1,9 @@
-## Wifi Stealer V2 with Exfiltration via Discord Webhook
+<h1 align="center">Wifi Stealer V2 with Exfiltration via Discord Webhook</h1>
 
-<div style="text-align: center;">
 
-![logo](https://i.imgur.com/5xs7RnV.png "logo")
-
-</div>
+<p align="center">
+<a href="#" ><img src="https://i.imgur.com/5xs7RnV.png" /></a>
+</p>
 
 **This payload will retrieve the different wifi networks saved on the computer as well as the security keys registered. 
 It will then send via a discord webhook the different information retrieved.**
