@@ -7,6 +7,7 @@
 
 **This payload will retrieve the different wifi networks saved on the computer as well as the security keys registered. 
 It will then send via a discord webhook the different information retrieved.**
+If you need help to upload .ps1 to dropbox, follow this link : [Import PS1 script to dropbox](https://github.com/Kira-stuff/kira-FlipperZero/tree/main/BadUSB/payload_uploader/Dropbox%20import%20tuto)
 
 ------------
 
